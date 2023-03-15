@@ -1,0 +1,119 @@
+
+body{
+    min-height: 90vh;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    box-shadow: 0px 6px 10px rgba(0, 0, 0);
+    height: 300px;
+    width: 700px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(193, 208, 238);
+    border-radius: 12px;
+}
+
+.opinion{
+    border-radius: 18px;
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.opinion-buttons-container{
+    display: none;
+}
+
+.opinion-buttons-container{
+    user-select: none;
+    margin-left: 45px;
+}
+
+.opinion:hover{
+    background-color: aquamarine;
+    transition: ease-in 300ms;
+}
+
+.opinion:focus{
+    background-color: aquamarine;
+}
+
+.strongly-agree-container{
+    display: inline-block;
+}
+
+#strongly-agree-text{
+    position: relative;
+    right: 20px;
+}
+
+.agree-container{
+    display: inline-block;
+}
+
+#agree-text{
+    position: relative;
+    right: 22px;
+}
+
+.neutral-container{
+    display: inline-block;
+}
+
+#neutral-text{
+    position: relative;
+    right: 22px;
+}
+
+.disagree-container{
+    display: inline-block;
+}
+
+#disagree-text{
+    position: relative;
+    right: 26px;
+}
+
+.strongly-disagree-container{
+    display: inline-block;
+}
+
+#strongly-disagree-text{
+    position: relative;
+    right: 25px;
+}
+
+.btn{
+    width: 80px;
+    height: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 8px;
+    border-color: grey;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 255, .7);
+    box-shadow: 0 3px 5px;
+}
+
+.btn:active{
+    width: 77px;
+    height: 37px;
+    background-color: rgba(255, 255, 255, .9);
+}
