@@ -10,22 +10,22 @@ const stronglyDisagreeEl = document.getElementById('#strongly-disagree');
 const opinionButtonsContainerEl = document.querySelector('.opinion-buttons-container');
 
 const questions = [
-    'A close friend of yours is having a problem and is crying. I feel empaty towards him.',
-    'You often have toughts of hurting others.',
-    'You love spending time with other people.',
-    'I hate seeing people being happy if I am feeling down.',
-    'I like to finish an activity before starting a new one.',
-    'I actively perticipate in my friends conversations.',
-    'I see people as my equal',
-    'I feel that my personal problems are important and worth mentioning.',
-    'I have easy time making new friends.',
-    'Emotions easily influence me.',
-    'Listening to other people is as important as talking.',
-    'Giving gifts is as important as receiving them.',
-    'I try to understand different points of view.',
-    'I think about deeper subjects like the meaning of life.',
-    'Most people are good',
-    'Center of attention is not where i like to be'
+    '1. A close friend of yours is having a problem and is crying. I feel empaty towards him.',
+    '2. You often have toughts of hurting others.',
+    '3. You love spending time with other people.',
+    '4. I hate seeing people being happy if I am feeling down.',
+    '5. I like to finish an activity before starting a new one.',
+    '6. I actively perticipate in my friends conversations.',
+    '7. I see people as my equal',
+    '8. I feel that my personal problems are important and worth mentioning.',
+    '9. I have easy time making new friends.',
+    '10. Emotions easily influence me.',
+    '11. Listening to other people is as important as talking.',
+    '12. Giving gifts is as important as receiving them.',
+    '13. I try to understand different points of view.',
+    '14. I think about deeper subjects like the meaning of life.',
+    '15. Most people are good',
+    '16. Center of attention is not where i like to be'
 ];
 
 const personalityArchitypes = ['Psychopath', 'Party Beast', 'Loner', 'Balanced']
